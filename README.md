@@ -6,21 +6,21 @@ These are the reasons why I get frustrated using yours or anyone else’s comput
 
 Let's ease in with some starting commands (some people call it a dot file. whatever).
 
-##Humble thy dock.
+###Humble thy dock.
 
 `defaults write com.apple.dock static-only -bool TRUE; killall Dock`
 
-##Apps shouldn’t hide from me
+###Apps shouldn’t hide from me
 
 `defaults write com.apple.dock showhidden -bool TRUE; killall Dock`
 
-##But the dock shelf should stay hidden. 
+###But the dock shelf should stay hidden. 
 
 `defaults write com.apple.dock autohide-time-modifier -float 1; killall Dock`
 
  
 
-**The meaty stuff:**
+##The meaty stuff:##
 
 `xcode-select –install`
 
